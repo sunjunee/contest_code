@@ -4,6 +4,12 @@
 
 ![image](https://github.com/sunjunee/contest_code/blob/master/toutiao/T1.jpg)
 
+
+思路：实际上类似于滑动窗口，这一题有两个要点：
+
+* 记录当前窗口内的0个数和位置，并在窗口内的0个数超过3的时候，更新窗口起点；
+* 当窗口内数字之和小于0时，这些数字对后续的数字的和有负作用，需要更新窗口起点。
+
 ```python
 # -*- coding: utf-8 -*-
 """

@@ -52,5 +52,28 @@ T2
 
 思路：
 
+对于整数，比较好求解，小数取下整，真的不知道怎么搞，只能暴力求了。
 
+```python
+def getSubArray(items):  
+    result = [[]]  
+    for x in items:  
+        result.extend([ss + [x] for ss in result])
+    return result
+
+n, m = 3, 10
+A = [11,22,30]  
+
+ans = 0
+B = []  #存储A中相邻两数的差值
+for i in range(n-1):
+    B.append(A[i] - A[i+1])
+
+#获取B的所有子数组，对子数组分别求和
+subArray = getSubArray(B)
+for i in range(len(subArray)):
+    subArray[i] = int(abs(sum(subArray[i])) / m)
+ans = sum(subArray) 
+print(ans)
+```
 

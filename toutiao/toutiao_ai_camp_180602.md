@@ -45,3 +45,12 @@ for i in range(1, len(nums)):
 print(resu)
     
 ```
+
+T2 
+
+![image](https://github.com/sunjunee/contest_code/blob/master/toutiao/T2.jpg)
+
+思路：
+
+
+

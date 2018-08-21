@@ -8,6 +8,12 @@
 
 实际复杂度：构造堆 klogk；比较和调整堆最多n*logk，所以时间复杂度是nlogk
 
+堆和堆排序，参考：
+
+http://bubkoo.com/2014/01/14/sort-algorithm/heap-sort/
+
+http://blog.51cto.com/jx610/1702260
+
 ```python
 #构造一个最小堆：从右到左，从下到上调整每个数的位置：
 def build_min_heap(nums):

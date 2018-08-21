@@ -219,6 +219,8 @@ def transIPv4(strs):
 
     https://baike.baidu.com/item/%E5%AD%97%E5%85%B8%E6%A0%91/9825209
 
+    http://www.cnblogs.com/gaochundong/p/trie_tree.html
+
 然后基本全程在聊天。。。
 
 百度凤巢广告算法
